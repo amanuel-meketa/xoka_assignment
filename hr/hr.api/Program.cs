@@ -8,7 +8,13 @@ builder.Services.AddDbContext<Context>(options =>
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-
+builder.Services.AddCors(o =>
+{
+    o.AddPolicy("CorsPolicy",
+        builder => builder.AllowAnyHeader()
+        .AllowAnyMethod()
+        .AllowAnyOrigin());
+});
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
