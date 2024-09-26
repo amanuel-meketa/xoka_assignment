@@ -1,6 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hr.api", "hr.api\hr.api.csproj", "{EE0CA523-CE74-425A-AF9A-EDB6C7EF3554}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hr.api", "hr.api\hr.api.csproj", "{9B754BFC-F7B8-424B-B28B-B6C808166639}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{EE0CA523-CE74-425A-AF9A-EDB6C7EF3554}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EE0CA523-CE74-425A-AF9A-EDB6C7EF3554}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EE0CA523-CE74-425A-AF9A-EDB6C7EF3554}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EE0CA523-CE74-425A-AF9A-EDB6C7EF3554}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B754BFC-F7B8-424B-B28B-B6C808166639}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B754BFC-F7B8-424B-B28B-B6C808166639}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B754BFC-F7B8-424B-B28B-B6C808166639}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B754BFC-F7B8-424B-B28B-B6C808166639}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F96E8C23-0536-4E41-9908-A327292E0B85}
 	EndGlobalSection
 EndGlobal
